@@ -21,6 +21,14 @@
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
             margin-top: 40px;
         }
+        .important-notice {
+            background-color: #fff3cd;
+            border: 1px solid #ffeeba;
+            color: #856404;
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
         h1 {
             color: #333;
             text-align: center;
@@ -62,6 +70,10 @@
 </head>
 <body>
     <div class="container">
+        <div class="important-notice">
+            <strong>Important:</strong> To fully delete your account and all associated data, you must delete your account from within the Mixami app. Open the app, go to Account Settings, and click the "Delete Account" button. This web form alone is not sufficient for complete account deletion.
+        </div>
+
         <h1>Mixami Account Deletion Request</h1>
         
         <form id="deletionForm" onsubmit="submitForm(event)">
@@ -79,7 +91,7 @@
         </form>
 
         <p class="info-text">
-            Upon submitting this form, we will process your account deletion request within 30 days. 
+            Upon submitting this form, we will process your account deletion request within 10 days. 
             All your personal data will be permanently deleted from our systems.
             If you have any questions about the deletion process, please contact us at support@mixami.app
         </p>
